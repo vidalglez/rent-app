@@ -1,0 +1,27 @@
+.App {
+    /*
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 10px;
+    */
+  }
+  
+  .carousel-item {
+    height: 350px;
+  }
+  
+  .carousel-image-1 {
+    background: url('/img/fachada-externa.jpg');
+    background-size: cover;
+    
+  }
+  
+  .carousel-image-2 {
+    background: url('/img/vista-sala.jpg');
+    background-size: cover;
+  }
+  
+  .carousel-image-3 {
+    background: url('/img/vista-kitchen.jpg');
+    background-size: cover;
+  }
