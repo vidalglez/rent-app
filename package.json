@@ -30,7 +30,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack --watch",
+    "build:dev": "webpack",
+    "build:prod": "webpack -p --env production",
     "build-app": "react-scripts build",
     "dev-server": "webpack-dev-server",
     "test": "react-scripts test --env=jsdom",
