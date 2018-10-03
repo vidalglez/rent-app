@@ -6,6 +6,11 @@
   "main": "src/index.js",
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
     "react": "16.4.2",
     "react-dom": "16.4.2",
     "react-grid-gallery": "^0.5.2",
@@ -14,14 +19,20 @@
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
     "redux": "^4.0.0",
-    "webpack": "^4.20.2",
+    "webpack": "^3.1.0",
+    "webpack-dev-server": "^2.5.1",
     "youtube-api-search": "0.0.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "favicons-webpack-plugin": "0.0.9",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-cli": "^3.1.2"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "webpack",
+    "build": "webpack --watch",
     "build-app": "react-scripts build",
+    "dev-server": "webpack-dev-server",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
