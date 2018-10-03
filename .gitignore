@@ -5,4 +5,6 @@
 bundle.js
 bundle.js.map
 
-public/favicon.png
+public/*.png
+public/styles.css
+public/styles.css.map
