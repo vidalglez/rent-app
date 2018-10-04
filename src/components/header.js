@@ -21,9 +21,18 @@ const Header = function() {
                 Inicio
               </a>
             </li>
-            
             <li className="nav-item">
-              <a href="contact.html" className="nav-link">
+              <a href="#gallery" className="nav-link">
+                Galer&iacute;a
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="#house-map" className="nav-link">
+                Localizaci&oacute;n
+              </a>
+            </li>                        
+            <li className="nav-item">
+              <a href="#contact" className="nav-link">
                 Contacto
               </a>
             </li>
@@ -33,23 +42,5 @@ const Header = function() {
     </nav>
   );
 };
-
-/*
-            <li className="nav-item">
-              <a href="about.html" className="nav-link">
-                About Us
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="services.html" className="nav-link">
-                Services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a href="blog.html" className="nav-link">
-                Blog
-              </a>
-            </li>
-            */
 
 export default Header;

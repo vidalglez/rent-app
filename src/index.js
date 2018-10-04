@@ -5,15 +5,17 @@ import Footer from './components/footer';
 import PhotoGallery from './components/photo-gallery';
 import Header from './components/header';
 import Slider from './components/showcase-slider';
+import SimpleGoogleMap from './components/simple-google-map';
 
 import './styles.css';
 
 const App = () => (
-  <div>
+  <div>    
     <Header />
     <Slider />
     <PhotoGallery />
-    <Footer />
+    <SimpleGoogleMap />
+    <Footer />    
   </div>
 );
 

@@ -4,13 +4,12 @@ import Lightbox from 'react-images';
 /* <!-- PHOTO GALLERY --> */
 
 const photos = [
-    { src: '/img/kitchen.jpg', width: 1, height: 1 },
-    { src: '/img/room-main.jpg', width: 1, height: 1 },
-    { src: '/img/room-secondary.jpg', width: 1, height: 1 }
-  ];
+  { src: '/img/kitchen.jpg', width: 1, height: 1 },
+  { src: '/img/room-main.jpg', width: 1, height: 1 },
+  { src: '/img/room-secondary.jpg', width: 1, height: 1 }
+];
 
 class PhotoGallery extends React.Component {
-
   constructor() {
     super();
     this.state = { currentImage: 0 };
@@ -48,24 +47,22 @@ class PhotoGallery extends React.Component {
 
   render() {
     return (
-        <section id="galley" className="py-5">
+      <section id="gallery" className="py-5">
         <div className="container">
-            <h1 className="text-center">Galer&iacute;a de Fotos</h1>
-            <p className="text-center">Revisa cada detalle mas a fondo</p>
-            
-        <Gallery photos={photos} onClick={this.openLightbox} />
-        <Lightbox
-          images={photos}
-          onClose={this.closeLightbox}
-          onClickPrev={this.gotoPrevious}
-          onClickNext={this.gotoNext}
-          currentImage={this.state.currentImage}
-          isOpen={this.state.lightboxIsOpen}
-        />
-        
-      
-      </div>
-    </section>
+          <h1 className="text-center">Galer&iacute;a de Fotos</h1>
+          <p className="text-center">Revisa cada detalle mas a fondo</p>
+
+          <Gallery photos={photos} onClick={this.openLightbox} />
+          <Lightbox
+            images={photos}
+            onClose={this.closeLightbox}
+            onClickPrev={this.gotoPrevious}
+            onClickNext={this.gotoNext}
+            currentImage={this.state.currentImage}
+            isOpen={this.state.lightboxIsOpen}
+          />
+        </div>
+      </section>
     );
   }
 }
