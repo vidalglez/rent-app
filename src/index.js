@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import Details from './components/details'
 import Footer from './components/footer';
 import PhotoGallery from './components/photo-gallery';
 import Header from './components/header';
@@ -15,6 +16,7 @@ const App = () => (
     <Slider />
     <PhotoGallery />
     <SimpleGoogleMap />
+    <Details />
     <Footer />    
   </div>
 );

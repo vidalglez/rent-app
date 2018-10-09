@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = function() {
   return (
-    <nav className="navbar navbar-expand-sm navbar-light bg-light">
+    <nav className="navbar navbar-expand-sm navbar-light bg-light" id="main-nav">
       <div className="container">
         <a href="index.html" className="navbar-brand">
           Casa en Renta
@@ -32,8 +32,8 @@ const Header = function() {
               </a>
             </li>                        
             <li className="nav-item">
-              <a href="#contact" className="nav-link">
-                Contacto
+              <a href="#details" className="nav-link">
+                Arrendamiento
               </a>
             </li>
           </ul>
