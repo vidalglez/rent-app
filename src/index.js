@@ -6,7 +6,8 @@ import Footer from './components/footer';
 import PhotoGallery from './components/photo-gallery';
 import Header from './components/header';
 import Slider from './components/showcase-slider';
-import SimpleGoogleMap from './components/simple-google-map';
+//import SimpleGoogleMap from './components/simple-google-map';
+import MapContainer from './components/google-map';
 
 import './styles.css';
 
@@ -15,7 +16,7 @@ const App = () => (
     <Header />
     <Slider />
     <PhotoGallery />
-    <SimpleGoogleMap />
+    <MapContainer />
     <Details />
     <Footer />    
   </div>

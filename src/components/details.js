@@ -10,7 +10,7 @@ class Details extends React.Component {
               <img
                 src="/img/kitchen.jpg"
                 alt=""
-                className="img-fluid mb-3 rounded-circle"
+                className="img-fluid mb-3 rounded"
               />
             </div>
             <div className="col-md-6 order-1">
