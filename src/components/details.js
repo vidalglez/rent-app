@@ -5,6 +5,7 @@ class Details extends React.Component {
     return (
       <section id="details" className="py-5">
         <div className="container">
+          <h3 className="text-center">Arrendamiento</h3>  
           <div className="row">
             <div className="col-md-6 order-2">
               <img
@@ -14,12 +15,12 @@ class Details extends React.Component {
               />
             </div>
             <div className="col-md-6 order-1">
-              <h3>Detalles de arrendamiento</h3>
+              
               <p>
-                En caso de estar interesado (a) en ver la propiedad será bajo
-                previa cita, ya que el acceso es controlado y no se podra
-                acceder sin autorización por parte de la (el) propietario, se
-                pide formalidad.
+                En caso de estar interesado en ver la propiedad, ésta será bajo
+                previa cita ya que el acceso es controlado y no se podr&aacute;
+                acceder a la privada sin autorización por parte del propietario, se
+                pide formalidad al momento de agendar la cita.
               </p>
               <div className="d-flex">
                 <div className="p-4 align-self-start">

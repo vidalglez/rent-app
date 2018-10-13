@@ -109,7 +109,7 @@ class PhotoGallery extends React.Component {
     return (
       <section id="gallery" className="py-5">
         <div className="container">
-          <h1 className="text-center">Galer&iacute;a de Fotos</h1>
+          <h3 className="text-center">Galer&iacute;a de Fotos</h3>
           <p className="text-center">Revisa cada detalle mas a fondo</p>
 
           <Gallery photos={photos} onClick={this.openLightbox} />

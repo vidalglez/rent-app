@@ -26,7 +26,8 @@ export class MapContainer extends React.Component {
         <div className="container">
           <div className="row">
             <div className="col">
-              <h1 className="text-center">Localizaci&oacute;n</h1>
+              <h3 className="text-center">Localizaci&oacute;n</h3>              
+                <p className="text-center">Villa Dr. Mora. Colonia Villas de Guanajuato</p>
               <div style={{ height: '50vh', width: '100%' }}>
                 <Map
                   google={this.props.google}

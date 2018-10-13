@@ -1,11 +1,15 @@
 import React from 'react';
-
+/*
+<a href="index.html" className="navbar-brand">
+          Renta de Casa - Villas de Guanajuato
+        </a>
+*/
 const Header = function() {
   return (
     <nav className="navbar navbar-expand-sm navbar-light bg-light" id="main-nav">
       <div className="container">
-        <a href="index.html" className="navbar-brand">
-          Casa en Renta
+        <a href="#index" className="navbar-brand">
+          Casa en Renta en Guanajuato
         </a>
         <button
           className="navbar-toggler"
@@ -17,7 +21,7 @@ const Header = function() {
         <div className="collapse navbar-collapse" id="navbarCollapse">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a href="index.html" className="nav-link">
+              <a href="#index" className="nav-link">
                 Inicio
               </a>
             </li>
