@@ -4,15 +4,69 @@ import Lightbox from 'react-images';
 /* <!-- PHOTO GALLERY --> */
 
 const photos = [
-  { src: '/img/Fachada.jpg', width: 1, height: 1 },
-  { src: '/img/Cocina.jpg', width: 1, height: 1 },  
-  { src: '/img/Sala.jpg', width: 1, height: 1 },  
-  { src: '/img/patio-externo.jpg', width: 1, height: 1 },
-  { src: '/img/HP.jpg', width: 1, height: 1 },
-  { src: '/img/Hab_F.jpg', width: 1, height: 1 },
-  { src: '/img/Hab_F1.jpg', width: 1, height: 1 },
-  { src: '/img/Bath_PA.jpg', width: 1, height: 1 },
-  { src: '/img/Bath_HP.jpg', width: 1, height: 1 }
+  {
+    src: '/img/Fachada.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/Fachada.jpg',
+    caption: 'Protecciones de metal reforzado en puerta principal y ventanas de cada habitación. Cochera para 1 o 2 autos'
+  },
+  {
+    src: '/img/Cocina.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/Cocina.jpg',
+    caption: 'Planta baja - Cocina integral y puerta de metal reforzada para salida a patio'
+  },
+  {
+    src: '/img/Sala.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/Sala.jpg',
+    caption: 'Planta baja - Mosquitero interior ade mas de ventilas con protecciones de metal en el exterior'
+  },
+  {
+    src: '/img/patio-externo.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/patio-externo.jpg',
+    caption: 'Boiler con proteccion de metal ademas de lavadero. Amplio espacio para el exterior'
+  },
+  {
+    src: '/img/HP.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/HP.jpg',
+    caption: 'Planta alta - Amplia habitación princpal con dos closets. Protección de metal en ventana exterior'
+  },
+  {
+    src: '/img/Hab_F.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/Hab_F.jpg',
+    caption: 'Planta alta - Habitación secundaria con clóset'
+  },
+  {
+    src: '/img/Hab_F1.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/Hab_F1.jpg',
+    caption: 'Planta alta - Habitación secundaria protección de metal y mosquitero en ventana exterior'
+  },
+  {
+    src: '/img/Bath_PA.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/Bath_PA.jpg',
+    caption: 'Planta alta - Baño completo junto a habitación secundaria con cancel de aluminio y ventilas con protecciones de metal en el exterior'
+  },
+  {
+    src: '/img/Bath_HP.jpg',
+    width: 1,
+    height: 1,
+    thumbnail: '/img/Bath_HP.jpg',
+    caption: 'Planta alta - Baño completo exclusivo para habitación principal con cancel de aluminio y ventilas con protecciones de metal en el exterior'
+  }
 ];
 
 class PhotoGallery extends React.Component {
@@ -61,17 +115,18 @@ class PhotoGallery extends React.Component {
           <Gallery photos={photos} onClick={this.openLightbox} />
           <Lightbox
             images={photos}
+            backdropClosesModal={true}
             onClose={this.closeLightbox}
             onClickPrev={this.gotoPrevious}
             onClickNext={this.gotoNext}
             currentImage={this.state.currentImage}
             isOpen={this.state.lightboxIsOpen}
+            imageCountSeparator={' de '}
           />
         </div>
       </section>
     );
   }
 }
-
 
 export default PhotoGallery;
