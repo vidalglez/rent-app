@@ -23,35 +23,35 @@ const photos = [
     width: 1,
     height: 1,
     thumbnail: '/img/Sala.jpg',
-    caption: 'Planta baja - Mosquitero interior ade mas de ventilas con protecciones de metal en el exterior'
+    caption: 'Planta baja - Mosquitero al interior de la ventana con protecciones de metal en el exterior'
   },
   {
     src: '/img/patio-externo.jpg',
     width: 1,
     height: 1,
     thumbnail: '/img/patio-externo.jpg',
-    caption: 'Boiler con proteccion de metal ademas de lavadero. Amplio espacio para el exterior'
+    caption: 'Boiler con protección de metal ademas de lavadero. Amplio espacio para el exterior'
   },
   {
     src: '/img/HP.jpg',
     width: 1,
     height: 1,
     thumbnail: '/img/HP.jpg',
-    caption: 'Planta alta - Amplia habitación princpal con dos closets. Protección de metal en ventana exterior'
+    caption: 'Planta alta - Amplia habitación princpal con dos clósets. Protección de metal en ventana exterior'
   },
   {
     src: '/img/Hab_F.jpg',
     width: 1,
     height: 1,
     thumbnail: '/img/Hab_F.jpg',
-    caption: 'Planta alta - Habitación secundaria con clóset'
+    caption: 'Planta alta - Habitación secundaria con mosquitero y protección de metal en ventana exterior'
   },
   {
     src: '/img/Hab_F1.jpg',
     width: 1,
     height: 1,
     thumbnail: '/img/Hab_F1.jpg',
-    caption: 'Planta alta - Habitación secundaria protección de metal y mosquitero en ventana exterior'
+    caption: 'Planta alta - Habitación secundaria con clóset'
   },
   {
     src: '/img/Bath_PA.jpg',

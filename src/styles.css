@@ -11,18 +11,18 @@
   }
   
   .carousel-image-1 {
-    background: url('/img/Fachada.jpg');
+    background: url('/img/banner_sala.jpg');
     background-size: cover;
     
   }
   
   .carousel-image-2 {
-    background: url('/img/Sala.jpg');
+    background: url('/img/banner_auto1.jpg');
     background-size: cover;
   }
   
   .carousel-image-3 {
-    background: url('/img/Cocina2.jpg');
+    background: url('/img/banner_gym.jpg');
     background-size: cover;
   }
 

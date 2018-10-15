@@ -9,7 +9,7 @@ class Details extends React.Component {
           <div className="row">
             <div className="col-md-6 order-2">
               <img
-                src="/img/kitchen.jpg"
+                src="/img/agreement.jpg"
                 alt=""
                 className="img-fluid mb-3 rounded"
               />
