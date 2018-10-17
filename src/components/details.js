@@ -5,7 +5,7 @@ class Details extends React.Component {
     return (
       <section id="details" className="py-5">
         <div className="container">
-          <h3 className="text-center">Arrendamiento</h3>  
+          <h3 className="p-4 text-center">Arrendamiento</h3>  
           <div className="row">
             <div className="col-md-6 order-2">
               <img
@@ -16,49 +16,49 @@ class Details extends React.Component {
             </div>
             <div className="col-md-6 order-1">
               
-              <p>
+              <p className="pl-4">
                 En caso de estar interesado en ver la propiedad, ésta será bajo
                 previa cita ya que el acceso es controlado y no se podr&aacute;
                 acceder a la privada sin autorización por parte del propietario, se
                 pide formalidad al momento de agendar la cita.
               </p>
               <div className="d-flex">
-                <div className="p-4 align-self-start">
+                <div className="pl-4 align-self-start">
                   <i className="fas fa-check fa-2x" />
                 </div>
-                <div className="p-4 align-self-end">
+                <div className="pl-4 align-self-end">
                   Todas las habitaciones cuentan con closets
                 </div>
               </div>
               <div className="d-flex">
-                <div className="p-4 align-self-start">
+                <div className="pl-4 align-self-start">
                   <i className="fas fa-check fa-2x" />
                 </div>
-                <div className="p-4 align-self-end">
+                <div className="pl-4 align-self-end">
                   Ventanas y puertas cuentan con mosquiteros y cortineros.
                 </div>
               </div>
               <div className="d-flex">
-                <div className="p-4 align-self-start">
+                <div className="pl-4 align-self-start">
                   <i className="fas fa-check fa-2x" />
                 </div>
-                <div className="p-4 align-self-end">
+                <div className="pl-4 align-self-end">
                   Los baños completos tienen canceles.
                 </div>
               </div>
               <div className="d-flex">
-                <div className="p-4 align-self-start">
+                <div className="pl-4 align-self-start">
                   <i className="fas fa-check fa-2x" />
                 </div>
-                <div className="p-4 align-self-end">
+                <div className="pl-4 align-self-end">
                   La cochera es para dos autos.
                 </div>
               </div>
               <div className="d-flex">
-                <div className="p-4 align-self-start">
+                <div className="pl-4 align-self-start">
                   <i className="fas fa-check fa-2x" />
                 </div>
-                <div className="p-4 align-self-lg-end">
+                <div className="pl-4 align-self-lg-end">
                   La casa se renta por minímo un año y el contrato se lleva a
                   cabo ante notario.
                 </div>

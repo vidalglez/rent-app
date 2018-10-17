@@ -5,66 +5,63 @@ import Lightbox from 'react-images';
 
 const photos = [
   {
-    src: '/img/Fachada.jpg',
+    src: '/img/thumbs/Fachada.jpg',    
     width: 1,
-    height: 1,
-    thumbnail: '/img/Fachada.jpg',
-    caption: 'Protecciones de metal reforzado en puerta principal y ventanas de cada habitación. Cochera para 1 o 2 autos'
+    height: 1,    
+    caption: 'Protecciones de metal reforzado en cada ventana. Cochera para 1 o 2 autos'
   },
   {
-    src: '/img/Cocina.jpg',
+    src: '/img/thumbs/Puerta.jpg',    
+    width: 1,
+    height: 1,    
+    caption: 'Protecciones de metal reforzado en puerta principal'
+  },
+  {
+    src: '/img/thumbs/Cocina3.jpg',
     width: 1,
     height: 1,
-    thumbnail: '/img/Cocina.jpg',
     caption: 'Planta baja - Cocina integral y puerta de metal reforzada para salida a patio'
   },
   {
-    src: '/img/Sala.jpg',
+    src: '/img/thumbs/Sala.jpg',
     width: 1,
-    height: 1,
-    thumbnail: '/img/Sala.jpg',
+    height: 1,    
     caption: 'Planta baja - Mosquitero al interior de la ventana con protecciones de metal en el exterior'
   },
   {
-    src: '/img/patio-externo.jpg',
+    src: '/img/thumbs/Patio.jpg',
     width: 1,
     height: 1,
-    thumbnail: '/img/patio-externo.jpg',
     caption: 'Boiler con protección de metal ademas de lavadero. Amplio espacio para el exterior'
   },
   {
-    src: '/img/HP.jpg',
+    src: '/img/thumbs/HP.jpg',
     width: 1,
     height: 1,
-    thumbnail: '/img/HP.jpg',
     caption: 'Planta alta - Amplia habitación princpal con dos clósets. Protección de metal en ventana exterior'
   },
   {
-    src: '/img/Hab_F.jpg',
+    src: '/img/thumbs/VentanaHab.jpg',
     width: 1,
     height: 1,
-    thumbnail: '/img/Hab_F.jpg',
     caption: 'Planta alta - Habitación secundaria con mosquitero y protección de metal en ventana exterior'
   },
   {
-    src: '/img/Hab_F1.jpg',
+    src: '/img/thumbs/HF.jpg',
     width: 1,
     height: 1,
-    thumbnail: '/img/Hab_F1.jpg',
     caption: 'Planta alta - Habitación secundaria con clóset'
   },
   {
-    src: '/img/Bath_PA.jpg',
+    src: '/img/thumbs/Bath_PA.jpg',
     width: 1,
     height: 1,
-    thumbnail: '/img/Bath_PA.jpg',
     caption: 'Planta alta - Baño completo junto a habitación secundaria con cancel de aluminio y ventilas con protecciones de metal en el exterior'
   },
   {
-    src: '/img/Bath_HP.jpg',
+    src: '/img/thumbs/BathHP.jpg',
     width: 1,
     height: 1,
-    thumbnail: '/img/Bath_HP.jpg',
     caption: 'Planta alta - Baño completo exclusivo para habitación principal con cancel de aluminio y ventilas con protecciones de metal en el exterior'
   }
 ];
