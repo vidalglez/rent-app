@@ -5,15 +5,25 @@ class Footer extends React.Component {
     const getDate = () => new Date().getFullYear();
 
     return (
-      <footer id="main-footer" className="text-center p-4">
+      <footer id="main-footer" className="text-center p-3">
         <div className="container">
           <div className="row">
             <div className="col">
-              <p>
+              <div className="small">
                 Copyright &copy;
                 <span id="year">{getDate()} </span>
-                Vidal Gonz&aacute;lez
-              </p>
+                <a
+                  className="twitterLink"
+                  href="https://twitter.com/vidalglez27"
+                >
+                  <img
+                    src="/img/twitter-logo.png"
+                    alt="twitter-logo"
+                    id="twitter-logo"
+                  />{' '}
+                  Web Development: Vidal Gonz&aacute;lez
+                </a>
+              </div>
             </div>
           </div>
         </div>

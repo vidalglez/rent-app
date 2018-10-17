@@ -2,12 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Details from './components/details'
+import Explore from './components/explore';
 import Footer from './components/footer';
-import PhotoGallery from './components/photo-gallery';
-import Header from './components/header';
-import Slider from './components/showcase-slider';
-//import SimpleGoogleMap from './components/simple-google-map';
 import MapContainer from './components/google-map';
+import Header from './components/header';
+import PhotoGallery from './components/photo-gallery';
+import Slider from './components/showcase-slider';
+
 
 import './styles.css';
 
@@ -15,6 +16,7 @@ const App = () => (
   <div>    
     <Header />
     <Slider />
+    <Explore />
     <PhotoGallery />
     <MapContainer />
     <Details />

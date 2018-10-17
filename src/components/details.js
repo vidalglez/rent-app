@@ -21,15 +21,7 @@ class Details extends React.Component {
                 previa cita ya que el acceso es controlado y no se podr&aacute;
                 acceder a la privada sin autorización por parte del propietario, se
                 pide formalidad al momento de agendar la cita.
-              </p>
-              <div className="d-flex">
-                <div className="pl-4 align-self-start">
-                  <i className="fas fa-check fa-2x" />
-                </div>
-                <div className="pl-4 align-self-end">
-                  Todas las habitaciones cuentan con closets
-                </div>
-              </div>
+              </p>              
               <div className="d-flex">
                 <div className="pl-4 align-self-start">
                   <i className="fas fa-check fa-2x" />
@@ -43,7 +35,7 @@ class Details extends React.Component {
                   <i className="fas fa-check fa-2x" />
                 </div>
                 <div className="pl-4 align-self-end">
-                  Los baños completos tienen canceles.
+                  Los baños completos tienen canceles de aluminio
                 </div>
               </div>
               <div className="d-flex">
@@ -52,6 +44,14 @@ class Details extends React.Component {
                 </div>
                 <div className="pl-4 align-self-end">
                   La cochera es para dos autos.
+                </div>
+              </div>
+              <div className="d-flex">
+                <div className="pl-4 align-self-start">
+                  <i className="fas fa-check fa-2x" />
+                </div>
+                <div className="pl-4 align-self-end">
+                  Todas las habitaciones cuentan con closets
                 </div>
               </div>
               <div className="d-flex">

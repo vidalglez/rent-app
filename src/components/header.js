@@ -26,6 +26,11 @@ const Header = function() {
               </a>
             </li>
             <li className="nav-item">
+              <a href="#explore" className="nav-link">
+                Detalles
+              </a>
+            </li>
+            <li className="nav-item">
               <a href="#gallery" className="nav-link">
                 Galer&iacute;a
               </a>
