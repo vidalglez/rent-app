@@ -9,7 +9,7 @@ const Header = function() {
     <nav className="navbar navbar-expand-sm navbar-light bg-light" id="main-nav">
       <div className="container">
         <a href="#index" className="navbar-brand">
-          Casa en Renta en Guanajuato
+          Casa en renta en Guanajuato
         </a>
         <button
           className="navbar-toggler"

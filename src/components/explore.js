@@ -9,9 +9,9 @@ class Explore extends React.Component {
           <div className="row">
             <div className="col-md-6">
               <img
-                src="/img/thumbs/Sala.jpg"
-                alt=""
-                className="img-fluid mb-3 rounded-circle"
+                src="/img/thumbs/Cocina2.jpg"
+                alt="Vista de cocina"
+                className="img-fluid mb-3 rounded"
               />
             </div>
             <div className="col-md-3">
@@ -19,7 +19,7 @@ class Explore extends React.Component {
               
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   Sala
@@ -27,7 +27,7 @@ class Explore extends React.Component {
               </div>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   Comedor
@@ -35,7 +35,7 @@ class Explore extends React.Component {
               </div>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   Cuarto de TV
@@ -43,7 +43,7 @@ class Explore extends React.Component {
               </div>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   1/2 Baño
@@ -51,7 +51,7 @@ class Explore extends React.Component {
               </div>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   Cocina Integral
@@ -59,7 +59,7 @@ class Explore extends React.Component {
               </div>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   Patio (boiler)
@@ -67,7 +67,7 @@ class Explore extends React.Component {
               </div>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   Cochera para uno o dos autos
@@ -78,7 +78,7 @@ class Explore extends React.Component {
               <h4>Planta alta</h4>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   2 Recamaras (principal y secundaria) con closets
@@ -86,7 +86,7 @@ class Explore extends React.Component {
               </div>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   Baño completo dentro de habitaci&oacute;n principal
@@ -94,7 +94,7 @@ class Explore extends React.Component {
               </div>
               <div className="d-flex">
                 <div className="p-1 align-self-start">
-                  <i className="far fa-star fa-1x" />
+                  <i className="far fa-check-square fa-1x" />
                 </div>
                 <div className="p-1 align-self-end">
                   Baño completo al lado de habitaci&oacute;n secundaria

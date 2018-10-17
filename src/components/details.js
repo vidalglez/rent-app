@@ -17,7 +17,7 @@ class Details extends React.Component {
             <div className="col-md-6 order-1">
               
               <p className="pl-4">
-                En caso de estar interesado en ver la propiedad, ésta será bajo
+                En caso de estar interesado en ver la propiedad, esta ser&aacute; bajo
                 previa cita ya que el acceso es controlado y no se podr&aacute;
                 acceder a la privada sin autorización por parte del propietario, se
                 pide formalidad al momento de agendar la cita.
@@ -67,7 +67,7 @@ class Details extends React.Component {
                 <div className="p-4 align-self-start">
                   <i className="fab fa-whatsapp" id="whatsapp-icon" />
                 </div>
-                <div className="p-4 align-self-end">Para mayor informaci&oacute;n, manda un mensaje al Whatsapp 4731212901</div>
+                <div className="p-4 align-self-end">Para mayor informaci&oacute;n, manda un Whatsapp al 4731212901</div>
               </div>
             </div>
           </div>
